@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" class="form">
+            <p class="Hi"> WORK WITH US : CARRERS : JUST SAY HI</p>
+            <h1 class="main_heading">LET'S WORK TOGETHER</h1>
+            <input type="text" name="first" required placeholder="First Name*">
+            <select name="hear" id="hear_about" required>
+                <option value="" disabled selected>How did you hear about us? *</option>
+                <option value="facebook">Facebook</option>
+                <option value="twitter">Twitter</option>
+                <option value="advertisement">Advertisement</option>
+                <option value="news">News</option>
+            </select>
+            <br>
+            <input type="text" name="last" required placeholder="Last Name*">
+            <select name="looking" id="looking">
+                <option value="" disabled selected>What are you looking for? </option>
+                <option value="job">Job</option>
+                <option value="real_estate">Real Estate</option>
+                <option value="Internship">Internship</option>
+            </select>
+            <input type="email" required placeholder="Email Address*">
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+            <input type="tel" required placeholder="Phone*">
+            <input id="the_right_way" class="zipcode" type="text" value = "" pattern="\d*" placeholder="Post Code">
+            <input type="submit" value="Send enquiry">
+        </form>
+    </div>
+</body>
+</html>

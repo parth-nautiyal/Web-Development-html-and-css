@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    margin: 15px 30px;
+    font-size: 22px;
+    padding: 8px;
+    color: rgb(253, 252, 250);
+    background-color: black;
+}
+.container{
+    background-color: rgb(15, 14, 14);
+    padding: 65px 55px 32px 50px;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+}
+.Hi{
+    text-align: center;
+}
+.main_heading{
+    text-align: center;
+    padding: 15px;
+}
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+.zipcode,
+select,textarea{
+    width: 100%;
+    padding: 12px 20px 15px 15px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    margin-top: 22px;
+    background-color: blanchedalmond;
+    align-items: center;
+    font-size: 25px;
+}
+input[type="submit"]{
+    width: 100%;
+    margin-top: 32px;
+    padding: 12px 20px;
+    background-color: rgb(220, 84, 50);
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    align-items: center;
+    font-size: 25px;
+}
+input[type="submit"]:hover{
+    background-color: rgb(69, 191, 69);
+    transform: scale(1.06);
+    cursor: pointer;
+    transition: 400ms;
+}
+
+
